@@ -12,13 +12,13 @@ It will generate a nms.so and a bbox.so in current folder.
 3.inference
 
 --change you own model_path , dir_path, save_path and save_path_json in inference.py
-python inference.py
+--python inference.py
 
 
 4.labelme json to txt:
 
 --change you own path in json_txt.py
-python json_txt.py
+--python json_txt.py
 
 
 5.train
@@ -32,7 +32,7 @@ image
 -- Augmentation include color trans, Expand, 
 -- change you own model_path, dataset_path in train_v2.py
 
-python train_v2.py
+--python train_v2.py
 
 
 6.reference
