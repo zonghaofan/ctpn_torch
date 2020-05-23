@@ -26,9 +26,8 @@ python json_txt.py
 follow icdar15 dataset format, x1,y1,x2,y2,x3,y3,x4,y4,label,(x1,y1) is left top,(x2,y2) is right top.
 
 image
---|
-    1.jpg
-    1.txt   
+--1.jpg
+--1.txt   
 
 -- Augmentation include color trans, Expand, 
 -- change you own model_path, dataset_path in train_v2.py
