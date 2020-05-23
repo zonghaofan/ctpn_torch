@@ -4,12 +4,16 @@ my blog:https://blog.csdn.net/fanzonghao/article/details/106302632
 
 ### 2.setup
 
+--|
+
 nms and bbox utils are written in cython, you have to build the library first.
 --cd utils/bbox
 --sh make.sh
 It will generate a nms.so and a bbox.so in current folder.
 
 ### 3.inference
+
+--|
 
 --change you own model_path , dir_path, save_path and save_path_json in inference.py
 python inference.py
@@ -27,6 +31,8 @@ image
 --|
     1.jpg
     1.txt   
+
+--|
 
 -- Augmentation include color trans, Expand, 
 -- change you own model_path, dataset_path in train_v2.py
